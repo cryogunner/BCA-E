@@ -6,10 +6,10 @@ int number;
 printf("Enter a number: ");  
 scanf("%d", &number);  
   
-    if (number % 7 == 0) {  
-printf("%d is divisible by 7.\n", number);  
+    if (number % 8 == 0) {  
+printf("%d is divisible by 8.\n", number);  
     } else {  
-printf("%d is divisible by 7.\n", number);  
+printf("%d is divisible by 8.\n", number);  
     }  
   
     return 0;  
